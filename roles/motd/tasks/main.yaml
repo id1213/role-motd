@@ -1,5 +1,4 @@
 ---
 - name: set motd
-  template: src="templates/motd.j2" dest="/etc/motd"
-  become: true
+  template: src="motd.j2" dest="/etc/motd"
 ...
